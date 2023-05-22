@@ -5,7 +5,7 @@
 function greeting() {
   let username = prompt("What's your favorite colour?")
 
-  alert('I agree, the best colour is ' + username)
+  alert('I agree, ' + username + ' is the best colour.')
 }
 
 function joke() {
