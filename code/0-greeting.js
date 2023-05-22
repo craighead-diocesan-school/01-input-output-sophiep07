@@ -9,5 +9,9 @@ function greeting() {
 }
 
 function joke() {
-  // write the code for your joke here.
+  alert("I have a joke for you!")
+  
+  let username = prompt("What did the shark say when he ate the clownfish?")
+
+  alert("This tastes a little funny.")
 }
