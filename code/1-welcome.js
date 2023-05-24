@@ -3,11 +3,19 @@
 // ####################################
 
 function welcome() {
-  let name = 'Sophie'
+  let me = 'Sophie'
 
   alert('We want to know if you like programming!')
 
-  alert('Do you like programming ' + name + '?')
+  alert('What is your name?') 
+  let name= prompt()
+
+  alert('What did you have for breakfast, ' + name + '?')
+  let food = prompt()
+
+  alert('Nice, ' + food + ' is great!')
+
+  alert('What is your favourite colour, ' + name + '?')
   let answer = prompt()
 
   alert('Great, you said ' + answer + '!')
