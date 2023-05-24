@@ -3,7 +3,7 @@
 // ####################################
 
 function welcome() {
-  let name = 'Mary'
+  let name = 'Sophie'
 
   alert('We want to know if you like programming!')
 
