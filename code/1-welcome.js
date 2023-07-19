@@ -3,23 +3,21 @@
 // ####################################
 
 function welcome() {
-  let me = 'Sophie'
+  let me = "Sophie"
 
-  alert('We want to know if you like programming!')
+  alert("We want to know if you like programming!")
 
-  alert('What is your name?') 
-  let name= prompt()
+  let name = prompt("What is your name?")
 
-  alert('What did you have for breakfast, ' + name + '?')
-  let food = prompt()
+  let breakfast = prompt("What did you have for breakfast, " + name + "?")
 
-  alert('Nice, ' + food + ' is great!')
+  alert("Nice, " + breakfast + " is great!")
 
-  alert('What is your favourite colour, ' + name + '?')
-  let answer = prompt()
+  let color = prompt("What is your favourite colour, " + name + "?")
 
-  alert('Great, you said ' + answer + '!')
+  alert("Great, you said " + color + "!")
   alert("Let's learn some code today.")
+  //code asks the user's name and uses it throughout the whole function, then asks other things like what they ate for breakfast and their favorite color then repeating it back to them
 }
 
 function questionnaire() {
